@@ -72,6 +72,15 @@ input, select, textarea {
 	appearance: none;
 }
 
+span > a{
+	font-size: 1.3em;
+	margin-left: 0%;
+	text-decoration: none;
+	color: #A23E48;
+
+
+}
+
 /* Row */
 
 	.row {
