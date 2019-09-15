@@ -2234,3 +2234,16 @@ span > a{
 			}
 
 		}
+
+		/* Blog */
+		#blog h1{
+			margin-bottom: 10%;
+		}
+
+		#blog p{
+			margin-bottom: 5%;
+		}
+
+		#blog a{
+			font-size: 1em;
+		}
