@@ -334,6 +334,11 @@ span > a{
 	height: auto;
 }
 
+#blogImg {
+	width: 100%;
+  padding: 0;
+}
+
 /* Hamburger menu */
 
 		@media screen and (max-width: 1680px) {
@@ -2267,18 +2272,25 @@ span > a{
 
 		/* Blog */
 		#blog {
-			padding-left: 30% !important;
-		}
+			padding-left: 10% !important;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+	}
 
-		#blog h1{
+		#blog h1 {
 			margin-bottom: 10%;
 		}
 
-		#blog p{
+		#blog h3 {
+			color: #777777;
+		}
+
+		#blog p {
 			margin-bottom: 5%;
 		}
 
-		#blog a{
+		#blog a {
 			font-size: 1em;
 			background-color: #EDBEAD;
 			margin: 3%;
