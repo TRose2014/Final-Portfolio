@@ -1430,6 +1430,14 @@ span > a{
 		letter-spacing: -0.015em;
 	}
 
+	@media screen and (min-width: 700px) and (max-width: 768px) {
+		.row {
+			display: flex;
+			justify-content: center;
+		
+		}
+	}
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
