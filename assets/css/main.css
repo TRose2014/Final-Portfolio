@@ -154,6 +154,7 @@ span > a{
 			width: 42%;
 			outline: #A23E48 10px inset;
 			margin: 3%;
+			max-width: 80%;
 		}
 
 		.row > .off-4 {
@@ -325,6 +326,20 @@ span > a{
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 2.5em;
 				}
+
+				/* My additional CSS */
+
+.main-pic{
+	width: 45%;
+	height: auto;
+}
+
+#blogImg {
+	width: 100%;
+  padding: 0;
+}
+
+/* Hamburger menu */
 
 		@media screen and (max-width: 1680px) {
 
@@ -1062,6 +1077,14 @@ span > a{
 		}
 
 		@media screen and (max-width: 736px) {
+			.row {
+				display: flex;
+    		justify-content: center;
+			}
+
+			.projectsDiv {
+				margin-bottom: 10% !important;
+			}
 
 			.row {
 				display: flex;
@@ -1410,6 +1433,14 @@ span > a{
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
+	}
+
+	@media screen and (min-width: 700px) and (max-width: 768px) {
+		.row {
+			display: flex;
+			justify-content: center;
+		
+		}
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1803,8 +1834,10 @@ span > a{
 
 	#nav {
 		text-align: center;
-		height: 4.25em;
 		cursor: default;
+		display: flex;
+    width: 80%;
+    justify-content: center;
 	}
 
 		#nav a {
@@ -1891,9 +1924,9 @@ span > a{
 				opacity: 1.0;
 			}
 
-				#nav a.active:after {
+				/* #nav a.active:after {
 					border-bottom-width: 0.5em;
-				}
+				} */
 
 		@media screen and (max-width: 980px) {
 
@@ -2218,6 +2251,8 @@ span > a{
 				margin-left: 1em;
 				border-left: solid 1px rgba(255, 255, 255, 0.25);
 				line-height: 1;
+				font-size: 1.3rem;
+				color: #A23E48;
 			}
 
 				#footer .copyright li:first-child {
@@ -2237,18 +2272,25 @@ span > a{
 
 		/* Blog */
 		#blog {
-			padding-left: 30% !important;
-		}
+			padding-left: 10% !important;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+	}
 
-		#blog h1{
+		#blog h1 {
 			margin-bottom: 10%;
 		}
 
-		#blog p{
+		#blog h3 {
+			color: #777777;
+		}
+
+		#blog p {
 			margin-bottom: 5%;
 		}
 
-		#blog a{
+		#blog a {
 			font-size: 1em;
 			background-color: #EDBEAD;
 			margin: 3%;

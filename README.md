@@ -1,5 +1,11 @@
 # Tia's Portfolio
 
+## Installation
+Git clone repo
+Run `npm i` || `npm install` in terminal
+Run `live server` in terminal
+
+
 ## Style Guide
 
 * Font-family: 'Vidaloka', serif;
