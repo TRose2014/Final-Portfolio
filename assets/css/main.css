@@ -1934,6 +1934,10 @@ span > a{
 				display: none;
 			}
 
+			.main-pic {
+				margin-bottom: 5% !important;
+		}
+
 		}
 
 /* Wrapper */
